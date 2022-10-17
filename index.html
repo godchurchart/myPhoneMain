@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="iphone14.css">
+    <link rel = "icon" type = "image/png" href = "UserAdmin/111.png">
+    <script src="https://kit.fontawesome.com/a69e2190b0.js" crossorigin="anonymous"></script>
+    <title>myPhone</title>
+</head>
+<body class="body">
+
+
+         <div class="iphone14">
+          <div class="iphonebackwallpaper">
+
+            <div class="iphone14_main_center">
+              <a  class="ringtoneiphone14"><img src="iphone14/telephonefoto.png" alt="" style="width: 55px; height: 55px; margin: 5px 20px; opacity: 10;"></a>
+              <a href="https://www.google.com/" target="_blank"><img src="iphone14/safarifoto.png" alt="" style="width: 48px; height: 48px; margin: 8px 23px; opacity: 10;"></a>
+              <a  target="_blank" onclick="setbutwindow()"><img src="iphone14/settings.png" class="settingfoto" alt="" style="width: 48px; height: 48px; margin: 8px 20px; opacity: 10;"></a>
+              
+            </div>
+
+            <!--call end half-->  <div id="callwindowhalf" style="display: none; position: absolute; margin: 45px 20px; border-radius: 20px; width: 250px; height: 100px; background: #f0efeb;"><div style="display: flex; width: 180px; height: 30px; margin: 10px 10px;"><img src="iphone14/callperson.png" alt="" width="30px" height="30px"><h3 style="margin: 0px 4px;">calling</h3></div><button onclick="callEnd()" style="width: 150px; height: 35px; border-color: #dd1c1a; background: #dd1c1a; border-radius: 20px; margin: 7px 50px;">call end</button></div>
+
+
+  <!--colour half-->   <div class="setwindow" style="display: none; position: absolute; width: 290px; height: 550px; background: #e1dee9; margin: 0px 0px; border-radius: 35px;">
+    <a onclick="exitfunctionbg()" class="fa-solid fa-chevron-left" style="position: absolute; font-size: 20px; color: black; margin: 47px 13px;"></a>
+              <p style="position: absolute; font-size: 20px; margin: 45px 105px;  font-family: Verdana, Geneva, Tahoma, sans-serif;">settings</p>
+         <!--account page button-->     <div onclick="buttonforaccount()" style="position: absolute; width: 35px; height: 35px; right: 10px; margin: 40px 0px;"><img src="UserAdmin/accountpng.png" alt="" width="35px" height="35px"></div>
+              
+             
+              <!--O small photo start-->
+              
+              <div class="teststyle"><img src="iphone14/iphonebg1.jpg" alt=""  class="testimg  ppww001"></div>
+                <div class="teststyle2"><img src="iphone14/iphonebg2.jfif" alt=""  class="testimg  ppww002"></div>
+                <div class="teststyle3"><img src="iphone14/iphonebg3.jfif" alt=""  class="testimg ppww003 "></div>
+                <div class="teststyle4"><img src="iphone14/iphonebg4.jfif" alt=""  class="testimg  ppww004"></div> <!--O small photo-->
+                <div class="teststyle5"><img src="iphone14/iphonebg0.jpg" alt=""  class="testimg  ppww005"></div>    
+
+              <div style="width: 200px; height: 350px;  margin: 70px 85px; ">
+                <button class="b_6" id="1bg">wallpaper 1</button>  <!--button for phone wallpaper-->
+                <button class="b_7" id="2bg">wallpaper 2</button>
+                <button class="b_8" id="3bg">wallpaper 3</button>
+                <button class="b_9" id="4bg">wallpaper 4</button>
+                <button class="b_10" id="5bg">wallpaper 5</button>
+               </div>
+
+               <div style="background: #f21b3f; border-radius: 40px; width: 250px; height: 35px; display: flex; margin: -10px 20px; position: absolute;">
+                  <a onclick="removefunctionbg()" class="fa-solid fa-trash removetrash" style=" font-size: 27px; margin: 5px 50px;" ></a>
+                  <div style="height: 100%; width: 10px; background: #e1dee9; position: absolute; left: 50%;"></div>
+                  <a onclick="exitfunctionbg()" value="clear" class="fa-solid fa-download savebuttonforwlp0101" style=" font-size: 27px; margin: 5px 50px;"></a>
+              </div>   <!--save and delete-->
+              <!--back page wallpaper start-->
+              <button class="bgcolour_setwindow" onclick="page2setwindow()">BG colour</button>
+              <div  class="page2_setwindow" >
+                <div style="width: 220px; height: 300px; margin: 50px 35px;">
+                  <a onclick="backbtset001()" class="fa-solid fa-chevron-left" style="position: absolute; font-size: 20px; color: black; margin: -3.5px -22px;"></a>
+                <button class="btset001" id="clbg001">colour 1</button>
+                <button class="btset002" id="clbg002">colour 2</button>
+                <button class="btset003" id="clbg003">colour 3</button>
+                <button onclick="clearallfuncbgcolor()" style="width: 60px; height: 30px; background: #8ecae6; border-radius: 60px; margin: 2px 80px; border-color: #8ecae6;">clear</button>
+              
+              </div><!--forsetbgcolour-->
+              <hr style="margin: 0px 0px; ">  
+                <div style="margin: 0px 10px; color: #941b0c; font-size: 25px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Info</div>
+                <div style="margin: 3px 10px; color: #0c0f0a; font-size: 18px; font-family: 'Amatic SC', cursive;">settings fot change bg colour</div>
+                <div style="margin: 3px 10px; color: #0c0f0a; font-size: 18px; font-family: 'Amatic SC', cursive;">saving forever</div>
+              </div>
+            </div>
+
+            <!--Start account page-->
+             
+            <div id="pageForAccount" style="display: none; position: absolute; width: 290px; height: 550px; background: #e1dee9; margin: 0px 0px; border-radius: 35px;">
+              <a onclick="backhistoryaccbut()" class="fa-solid fa-chevron-left" style="position: absolute; font-size: 20px; color: black; margin: 47px 13px;"></a>
+              <div style="font-family: Verdana, Geneva, Tahoma, sans-serif; position: absolute; font-size: 20px; color: #000; margin: 45px 77px;"><p >Your Account</p></div>
+              <div style="width: 120px; height: 120px; border-radius: 100%; background: #001f54; border: 4.4px solid #000 ; margin: 95px 85px; "><img class="us111png" src="UserAdmin/111.png" alt=""></div>
+              <div style="width: 170px; height: 25px;  position: absolute; margin: -80px 65px; " class="llok002"><p style="text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" id="looknameaccount"></p></div>
+              <p style="margin: 0px 20px; font-size: 23px; font-family: 'Amatic SC', cursive;">your account name!</p>
+              <div><input id="writeaccountnamevalue" style="width: 130px; height: 30px; background: rgba(120, 140, 139, 0) ; border: #001f54; margin: 10px 20px; box-shadow: 0px 1px #000; font-size: 15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; " type="text" placeholder="your name"></div>
+           <button id="clicksaveaccount" style="width: 150px; height: 30px; margin: 40px 70px; background: #03045e ;border-radius: 60px; color: #fff; font-family: 'Amatic SC', cursive; font-size: 15px;">save</button>
+           
+            </div>
+
+      <!--End account page-->
+
+            <!--end setting colour-->
+ 
+            <div class="iphone14_head">
+              <div class="iphonefunction">
+                  <div class="lookprogram" style="width: 15px; height: 15px; margin: 5px 13px; border-radius: 50%;"></div>
+                  <p class="watchbatterynoyes" style="position: absolute; font-size: 50px; color: #29bf12; margin: -31px 75px;"></p>
+              </div><!--iphonefunction-->
+              <p  class="fa-solid fa-signal signalicons" style="color: #fff; position: absolute; margin: 10px 18px; font-size: 13px;"></p>
+              <p class="fa-solid fa-wifi wifiicons" style="color: #fff; position: absolute; margin: 10px 42px; font-size: 13px;"></p>
+              <div class="charging_object" ></div>
+          </div><!--iphone14_head-->
+                <div class="divforiphoneclock" style="width: 100%; height: 30px; margin: 40px 0px;">
+                     <div class="clockiphone" style="color: #fff; font-size: 40px; font-family: ‘Raleway’,sans-serif; text-align: center;"></div>
+                </div>
+                <div class="pullprogramin">
+                     <a href="https://www.instagram.com/" target="_blank"><img src="iphone14/instoff002.png" alt="" style="width: 45px; height: 45px; margin: 0px 13.5px; border-radius: 10px;"></a>
+                     <a href="https://www.facebook.com/" target="_blank"><img src="iphone14/fcoff002.png" alt="" style="width: 45px; height: 45px; margin: 0px 13.5px; border-radius: 10px;"></a>
+                     <a href="https://web.telegram.org/" target="_blank"><img src="iphone14/teloff002.png" alt="" style="width: 45px; height: 45px; margin: 0px 13.5px; border-radius: 10px; "></a>
+                     <a href="https://www.youtube.com/" target="_blank"><img src="iphone14/youtubefoto.png" alt="" style="width: 45px; height: 45px; margin: 0px 13.5px; border-radius: 10px;"></a>
+                </div><!--pullprograming-->
+                <div class="pullprogramin2">
+                  <a href="https://web.whatsapp.com/" target="_blank"><img src="iphone14/wharsssaa.png" alt="" style="width: 45px; height: 45px; margin: 0px 13.5px; border-radius: 10px;"></a>
+                  <a href="https://www.globbing.com/" target="_blank"><img src="iphone14/globbingicon.png" alt="" style="width: 45px; height: 45px; margin: 0px 13.5px; border-radius: 10px;"></a>
+                  <a href="https://mail.google.com/" target="_blank"><img src="iphone14/gmaillll.png" alt="" style="width: 45px; height: 45px; margin: 0px 13.5px; border-radius: 10px;"></a>
+                  <a href="https://wallpapers.com/" target="_blank"><img src="iphone14/photosoff.png" alt="" style="width: 45px; height: 45px; margin: 0px 13.5px; border-radius: 10px;"></a>
+                </div><!--pullprograming2-->
+
+                
+                <div onclick="updateofficialbutton()" class="underlineiphone14" style="width: 110px;  height: 4.2px; background: #fff; position: absolute; margin: 260.5px 90px; border-radius: 60px;"></div>
+          
+          </div><!--iphonebackwallpaper-->
+        
+
+
+
+</div>
+  <!--llllllllllllllllllllllllllllllllllllllllllllllllllll-->
+  
+  <script src="UserAdmin/iphone14.js"></script>
+</body>
+
+
+
+

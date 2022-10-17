@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+ background: #f1faee;
+}
+.teststyle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 75px 10px;
+  border: 2px solid #03071e ;
+}
+.teststyle2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 130px 10px;
+  border: 2px solid #03071e ;
+}
+.teststyle3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 185px 10px;
+  border: 2px solid #03071e ;
+}
+.teststyle4 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 240px 10px;
+  border: 2px solid #03071e ;
+}
+.teststyle5 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 295px 10px;
+  border: 2px solid #03071e ;
+}
+.testimg {
+  border-radius: 100%;
+}
+.us111png {
+  width: 220px;
+  height: 265px;
+  position: absolute;
+  margin: -67px -55px;
+}
+
+
+.teststyle:hover{
+  width: 215px;
+  height: 300px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 73px 65px;
+  border: 2px solid #03071e ;
+  transition: 2s;
+}
+.teststyle2:hover {
+  width: 215px;
+  height: 300px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 73px 65px;
+  border: 2px solid #03071e ;
+  transition: 2s;
+}
+.teststyle3:hover {
+  width: 215px;
+  height: 300px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 73px 65px;
+  border: 2px solid #03071e ;
+  transition: 2s;
+}
+.teststyle4:hover {
+  width: 215px;
+  height: 300px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 73px 65px;
+  border: 2px solid #03071e ;
+  transition: 2s;
+}
+.teststyle5:hover {
+  width: 215px;
+  height: 300px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 73px 65px;
+  border: 2px solid #03071e ;
+  transition: 2s;
+}
+
+.ppww001 {
+ width:40px; 
+ height:40px;
+}
+.ppww002 {
+  width:40px; 
+  height:40px;
+}
+.ppww003 {
+  width:40px; 
+  height:40px;
+}
+.ppww004 {
+  width:40px; 
+  height:40px;
+}
+.ppww005 {
+  width:40px; 
+  height:40px;
+}
+
+.ppww001:hover {
+  width:215px; 
+  height:300px;
+  border-radius: 10px;
+transition: 2s;
+ }
+ .ppww002:hover {
+   width:215px; 
+   height:300px;
+   border-radius: 10px;
+transition: 2s;
+ }
+ .ppww003:hover {
+   width:215px; 
+   height:300px;
+   border-radius: 10px;
+transition: 2s;
+ }
+ .ppww004:hover {
+   width:215px; 
+   height:300px;
+   border-radius: 10px;
+transition: 2s;
+ }
+ .ppww005:hover {
+   width:215px; 
+   height:300px;
+   border-radius: 10px;
+   transition: 2s;
+ }

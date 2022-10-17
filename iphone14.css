@@ -1,0 +1,421 @@
+.head3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.iphone14 {
+    width: 300px;
+    height: 550px;
+    border-radius: 30px;
+    top: 10%;
+    left: 40%;
+    position: absolute;
+    
+}
+.head3pullcenter {
+    width: 70%;
+    height: 100%;
+    
+}
+.iphone14_head {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.iphonefunction {
+    width: 100px;
+    height: 25px;
+    background: #000;
+    margin: 7px 95px;
+    border-radius: 60px;
+    display: flex;
+    position: absolute;
+}
+
+.iphonebackwallpaper {
+   background-image: url("iphone14/iphoneoriginalwall1.jfif");
+  background-color: #cccccc; 
+  height: 100%; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 40px;
+  border: 5px solid #1b263b;
+} 
+/* programing half*/
+.pullprogramin {
+    
+    width: 290px;
+    height: 45px;
+    display: flex;
+    margin: 40px 0px;
+    
+}
+.pullprogramin2 {
+    
+    width: 290px;
+    height: 45px;
+    display: flex;
+    margin: 0px 0px;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Open+Sans:ital,wght@1,800&display=swap');
+
+.iphone14_main_center {
+    background: rgba(229, 214, 205, 0.3);
+    width: 280px;
+    height: 65px;
+    margin: 469px 5px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+}
+
+
+.charging_object {
+    width: 40px;
+    
+    font-family: ‘Raleway’,sans-serif;
+    height: 25px;
+    font-size: 15px;
+    color: #fff;
+      position: absolute; 
+       margin: 10px 230px;
+}
+/* Half Of Card*/
+
+.maindivforcardimages {
+    width: 100%;
+    height: 714px;
+    background-image: url("img/nywallpaper.jpg");
+    background-position: center; 
+    background-color: #cccccc; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.maindivforcard {
+    background: rgba(175, 5, 209, 0.4);
+}
+.onlineCaard {
+    font-family: 'Gemunu Libre', sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.cardbox {
+    width: 400px;
+    height: 230px;
+    background: linear-gradient(-25deg, black, #444, black);
+    border-radius: 15px;
+    margin: 10%;
+}
+.iconchip {
+    width: 60px; 
+    height: 60px;
+    margin: 0px 20px;
+}
+.mastercardlogo {
+    margin: 0px 110px;
+}
+.hoverpcardtext:hover {
+    font-size: 20px;
+    color: #cccccc;
+}
+.hidebutton {
+    width: 80px;
+    height: 40px;
+    border-radius: 60px;
+    background: rgba(217, 104, 237, 0.3);
+    font-size: 15px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.hidebutton:hover {
+    background: rgba(219, 44, 105, 0.4);
+    box-shadow: 1px 1px #cccccc;
+}
+.smartphonetext2:hover {
+   
+   transition: 5s;
+   font-size: 40px;
+   color: #d00000;
+   
+}
+.head3pull {
+    width: 30%;
+    height: 90%;
+   
+}
+
+
+
+.b_1:hover {
+background: rgba(69, 199, 239, 0.2);
+}
+.b_2:hover {
+    background: rgba(69, 199, 239, 0.2);
+}
+.b_3:hover {
+    background: rgba(69, 199, 239, 0.2);
+}
+.b_4:hover {
+   background: rgba(69, 199, 239, 0.2); 
+}
+.b_5:hover {
+    background: rgba(69, 199, 239, 0.2);
+}
+
+.input_ask {
+    border: rgba(175, 5, 209, 0.0);
+
+}
+.givesearch {
+    width: 30px;
+    height: 30px;
+    background: rgba(136, 185, 3, 0.4);
+    border-radius: 100%;
+    margin: 10px 44%;
+}
+.givesearch:hover {
+    width: 60px;
+    height: 40px;
+    background: #023e8a;
+    transition: 1s;
+    color: #fff;
+    border-radius: 0%;
+    font-size: 22px;
+}
+.viewmorebut {
+    position: absolute;
+    text-decoration: none;
+    right: 48%;
+    margin: 5px 0px;
+    
+}
+.viewmoreh1 {
+    color: #ff0054;
+    text-align: center;
+    font-size: 30px;
+    right: 48%;
+    margin: 5px 0px;
+    position: absolute;
+}
+.viewmoreh1:hover {
+    color: #40916c;
+    transition: 1s;
+
+}
+
+.b_6 {
+    border-radius: 15px;
+    background:  #3c096c ;
+    width: 200px;
+  height: 35px;
+ border-color:  #3c096c ;
+ color: #fff;
+ margin: 10px -8px;
+     font-family: 'Amatic SC', cursive;
+ font-size: 20px;
+    
+ }
+ .b_7 {
+    border-radius: 15px;
+    background:  #3c096c ;
+    width: 200px;
+  height: 35px;
+ border-color:  #3c096c ;
+ color: #fff;
+ margin: 10px -8px;
+     font-family: 'Amatic SC', cursive;
+ font-size: 20px;
+    
+ }
+ .b_8 {
+    border-radius: 15px;
+    background:  #3c096c ;
+    width: 200px;
+  height: 35px;
+ border-color:  #3c096c ;
+ color: #fff;
+ margin: 10px -8px;
+     font-family: 'Amatic SC', cursive;
+ font-size: 20px;
+    
+ }
+ .b_9 {
+    border-radius: 15px;
+    background:  #3c096c ;
+    width: 200px;
+  height: 35px;
+ border-color:  #3c096c ;
+ color: #fff;
+ margin: 10px -8px;
+     font-family: 'Amatic SC', cursive;
+ font-size: 20px;
+    
+ }
+ .b_10 {
+    border-radius: 15px;
+    background:  #3c096c ;
+    width: 200px;
+  height: 35px;
+ border-color:  #3c096c ;
+ color: #fff;
+ margin: 10px -8px;
+     font-family: 'Amatic SC', cursive;
+ font-size: 20px;
+    
+ }
+ .b_6:hover {
+    background:  #9d4edd ;
+    border-color:  #9d4edd ;
+ }
+ .b_7:hover{
+    background:  #9d4edd ;
+    border-color:  #9d4edd ;
+ }
+.b_8:hover {
+    background:  #9d4edd ;
+    border-color:  #9d4edd ;
+}
+.b_9:hover {
+    background:  #9d4edd ;
+    border-color:  #9d4edd ;
+}
+.b_10:hover {
+    background:  #9d4edd ;
+    border-color:  #9d4edd ;
+}
+ /* 2 page css*/
+
+#display_image {
+  width: 100%;
+  height: 211px;
+  background-position: center;
+  background-size: cover;
+}
+.buttonhalf{
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.eye_clear {
+  margin: 10px 20px;
+  font-size: 20px;
+}
+.eye_add {
+  margin: 10px 20px;
+  font-size: 20px;
+
+}
+.load{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+.settingsDiiv{
+  color: #0a9396;
+  border-radius: 10px;
+}
+.head2 {
+  width: 100%;
+  height: 714px;
+  background: #5a189a;
+  margin: 0;
+  padding: 0;
+}
+.head_main_half {
+  width: 100%;
+  height: 70px;
+}
+.iphone14_function {
+  margin: 0 auto ;
+  background: #000;
+  width: 300px;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.backwallpapermain{
+  background-image: url("iphone14/iphonebg1.jpg");
+  background-color: #cccccc; 
+  height: 1000Fpx; 
+  width: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.bgcolour_setwindow {
+   width: 250px;
+   height: 35px;
+   border-radius: 60px;
+   background: #0c1821;
+   border-color: #000;
+   color: #fff;
+   position: absolute;
+   margin: -100px 20px;
+}
+.bgcolour_setwindow:hover {
+    background: #495057;
+    border-color: #495057;
+}
+.page2_setwindow {
+   width: 290px;
+   height: 550px;
+   border-radius: 35px;
+   position: absolute;
+   background: #e1dee9;
+   display: none;
+   margin: -490px 0px;
+}
+.btset001 {
+    width: 200px;
+    height: 40px;
+    background: #ffb703;
+    border: #ffb703;
+    border-radius: 60px;
+    margin: 20px 10px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btset002 {
+    width: 200px;
+    height: 40px;
+    background: #ffb703;
+    border: #ffb703;
+    border-radius: 60px;
+    margin: 20px 10px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btset003 {
+    width: 200px;
+    height: 40px;
+    background: #ffb703;
+    border: #ffb703;
+    border-radius: 60px;
+    margin: 20px 10px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btset001:hover {
+  background: #ffca3a;
+}
+.btset002:hover {
+background: #ffca3a;
+}
+.btset003:hover {
+background: #ffca3a;
+}
+.removetrash {
+    color: #212529;
+}
+.removetrash:hover {
+    color: #e9d8a6;
+}
+.savebuttonforwlp0101 {
+    color: #212529;
+}
+.savebuttonforwlp0101:hover {
+    color: #fff;
+}
